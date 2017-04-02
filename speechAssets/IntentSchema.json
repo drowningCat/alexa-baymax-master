@@ -1,0 +1,58 @@
+{
+  "intents": [
+    {
+      "intent": "Academics",
+      "slots": [
+        {
+          "name": "academics_slot",
+          "type": "ACADEMIC_RELATED"
+        }
+      ]
+    },
+    {
+      "intent": "Relationships",
+      "slots": [
+        {
+          "name": "relationships_slot",
+          "type": "RELATIONSHIP_RELATED"
+        }
+      ]
+    },
+    {
+      "intent": "Finance",
+      "slots": [
+        {
+          "name": "finance_slot",
+          "type": "FINANCE_RELATED"
+        }
+      ]
+    },
+    {
+      "intent": "Work",
+      "slots": [
+        {
+          "name": "work_slot",
+          "type": "WORK_RELATED"
+        }
+      ]
+    },
+    {
+      "intent": "Other",
+      "slots": [
+        {
+          "name": "other_slot",
+          "type": "OTHER_RELATED"
+        }
+      ]
+    },
+    {
+      "intent": "GetHelp",
+      "slots": [
+        {
+          "name": "Answer",
+          "type": "YES_OR_NO"
+        }
+      ]
+    }
+  ]
+}
